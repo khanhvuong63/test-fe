@@ -8,6 +8,7 @@ import {
   FormGroup,
   Typography,
   Button,
+  Box,
 } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { categories, brands, years, origins } from "~/data/mock-data";
@@ -34,18 +35,31 @@ const FilterProduct: React.FC = () => {
 
   return (
     <div className="w-full max-w-xs p-4 bg-white rounded-lg ">
-      <Typography variant="h5" className=" text-primary" sx={{ mb: 1 }}>
+      <Typography
+        variant="h5"
+        className=" text-primary"
+        sx={{
+          mb: 1,
+          display: "flex",
+          alignItems: "center",
+          fontWeight: "bold",
+        }}
+      >
         <FilterAltIcon fontSize="large" />
         Bộ Lọc
       </Typography>
-
-      <Accordion defaultExpanded>
+      <Accordion
+        defaultExpanded
+        sx={{ boxShadow: "none", "&:before": { display: "none" } }}
+      >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="category-content"
           id="category-header"
         >
-          <Typography className="font-semibold">Danh mục sản phẩm</Typography>
+          <Typography sx={{ fontSize: "18px", fontWeight: "bold" }}>
+            Danh mục sản phẩm
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <FormGroup>
@@ -77,13 +91,18 @@ const FilterProduct: React.FC = () => {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion defaultExpanded>
+      <Accordion
+        defaultExpanded
+        sx={{ boxShadow: "none", "&:before": { display: "none" } }}
+      >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="price-content"
           id="price-header"
         >
-          <Typography className="font-semibold">Khoảng giá</Typography>
+          <Typography sx={{ fontSize: "18px", fontWeight: "bold" }}>
+            Khoảng giá
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <div className=" flex flex-col gap-2">
@@ -103,13 +122,18 @@ const FilterProduct: React.FC = () => {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion defaultExpanded>
+      <Accordion
+        defaultExpanded
+        sx={{ boxShadow: "none", "&:before": { display: "none" } }}
+      >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="brand-content"
           id="brand-header"
         >
-          <Typography className="font-semibold">Thương hiệu</Typography>
+          <Typography sx={{ fontSize: "18px", fontWeight: "bold" }}>
+            Thương hiệu
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <FormGroup>
@@ -137,13 +161,18 @@ const FilterProduct: React.FC = () => {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion defaultExpanded>
+      <Accordion
+        defaultExpanded
+        sx={{ boxShadow: "none", "&:before": { display: "none" } }}
+      >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="year-content"
           id="year-header"
         >
-          <Typography className="font-semibold">Năm sản xuất</Typography>
+          <Typography sx={{ fontSize: "18px", fontWeight: "bold" }}>
+            Năm sản xuất
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <FormGroup>
@@ -171,13 +200,18 @@ const FilterProduct: React.FC = () => {
         </AccordionDetails>
       </Accordion>
 
-      <Accordion defaultExpanded>
+      <Accordion
+        defaultExpanded
+        sx={{ boxShadow: "none", "&:before": { display: "none" } }}
+      >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="origin-content"
           id="origin-header"
         >
-          <Typography className="font-semibold">Xuất xứ</Typography>
+          <Typography sx={{ fontSize: "18px", fontWeight: "bold" }}>
+            Xuất xứ
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <FormGroup>

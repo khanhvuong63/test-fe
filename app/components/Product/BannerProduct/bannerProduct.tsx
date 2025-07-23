@@ -14,7 +14,7 @@ const BannerProduct: React.FC = () => {
         <img src={banner} alt="banner product" />
       </div>
       <div className="bg-primary flex justify-center items-center p-4 py-8">
-        <div style={{ display: "flex", flexWrap: "wrap" }}>
+        <div className="flex flex-wrap">
           {mockData.products.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}

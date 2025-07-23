@@ -1,13 +1,11 @@
 import logo from "~/assets/logo_footer.png";
 import vn from "~/assets/ico-country-c-vietnam.png";
-import { ArrowDropDown } from "@mui/icons-material";
-import {
-  Card,
-  CardActionArea,
-  CardContent,
-  Typography,
-  Box,
-} from "@mui/material";
+import ArrowDropDown from "@mui/icons-material/ArrowDropDown";
+import Box from "@mui/material/Box";
+import Card from "@mui/material/Card";
+import CardActionArea from "@mui/material/CardActionArea";
+import CardContent from "@mui/material/CardContent";
+import Typography from "@mui/material/Typography";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import AppleIcon from "@mui/icons-material/Apple";
 const FooterBottom: React.FC = () => {

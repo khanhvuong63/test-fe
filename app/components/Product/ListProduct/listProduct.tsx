@@ -1,5 +1,6 @@
 import FilterProduct from "../FilterProduct/filterProduct";
-import { Button, Typography } from "@mui/material";
+import Typography from "@mui/material/Typography";
+import Button from "@mui/material/Button";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { mockData } from "~/data/mock-data";
 import ProductCard from "../CardProduct/cardProduct";

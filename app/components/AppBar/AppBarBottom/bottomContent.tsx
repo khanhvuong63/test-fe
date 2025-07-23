@@ -1,13 +1,13 @@
 import Button from "@mui/material/Button";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-import { Menu } from "@mui/icons-material";
+import Menu from "@mui/icons-material/Menu";
 import AccessTimeFilledIcon from "@mui/icons-material/AccessTimeFilled";
 import VolunteerActivismIcon from "@mui/icons-material/VolunteerActivism";
 import LocalShippingIcon from "@mui/icons-material/LocalShipping";
 import ChangeCircleIcon from "@mui/icons-material/ChangeCircle";
 import CategoryMenu from "~/components/Product/CategoryMenu/categoryMenu";
 import React from "react";
-import { Popover, Box } from "@mui/material";
+import Popover from "@mui/material/Popover";
 const BottomContent: React.FC = () => {
   const [anchorEl, setAnchorEl] = React.useState<HTMLElement | null>(null);
   const [isHovering, setIsHovering] = React.useState(false);

@@ -1,4 +1,6 @@
-import { Box, Typography, Button } from "@mui/material";
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
+import Button from "@mui/material/Button";
 import MapIcon from "@mui/icons-material/Map";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 const FooterMiddle: React.FC = () => {

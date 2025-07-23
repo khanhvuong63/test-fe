@@ -1,13 +1,11 @@
 import React from "react";
-import {
-  Card,
-  CardMedia,
-  CardContent,
-  Typography,
-  CardActions,
-  Button,
-  Chip,
-} from "@mui/material";
+import Chip from "@mui/material/Chip";
+import Card from "@mui/material/Card";
+import CardMedia from "@mui/material/CardMedia";
+import CardContent from "@mui/material/CardContent";
+import Typography from "@mui/material/Typography";
+import CardActions from "@mui/material/CardActions";
+import Button from "@mui/material/Button";
 import LocalFireDepartmentIcon from "@mui/icons-material/LocalFireDepartment";
 import type { Product } from "~/data/mock-data";
 

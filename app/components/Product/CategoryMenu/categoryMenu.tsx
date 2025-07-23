@@ -1,12 +1,10 @@
-import {
-  Card,
-  CardActionArea,
-  CardContent,
-  Typography,
-  CardMedia,
-  Paper,
-  Chip,
-} from "@mui/material";
+import Chip from "@mui/material/Chip";
+import Card from "@mui/material/Card";
+import CardMedia from "@mui/material/CardMedia";
+import CardContent from "@mui/material/CardContent";
+import Typography from "@mui/material/Typography";
+import CardActionArea from "@mui/material/CardActionArea";
+import Paper from "@mui/material/Paper";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import { mockData } from "~/data/mock-data";
 import LocalFireDepartmentIcon from "@mui/icons-material/LocalFireDepartment";
